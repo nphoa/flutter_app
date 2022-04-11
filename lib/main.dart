@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/learning/listView.dart';
 import 'package:flutter_app/screens/home/home.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const  MaterialApp(
       title: 'Task App',
-      home:  HomePage(),
+      home:  ListViewTest(),
     );
   }
 }
